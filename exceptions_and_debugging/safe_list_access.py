@@ -78,8 +78,10 @@ Output Example 3:
 
 """
 def safe_get(items,index):
+        
     try:
         return ("ok",items[index])
+            
     except IndexError:
         return ("error", 
 "Index out of range")

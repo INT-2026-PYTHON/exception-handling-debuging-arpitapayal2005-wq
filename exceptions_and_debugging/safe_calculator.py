@@ -76,5 +76,6 @@ def safe_divide(a, b):
         return ("error", "Cannot divide by zero")
     except Exception:
         return ("error", "Unexpected error")
+       
     finally:
         print("Calculation finished")
